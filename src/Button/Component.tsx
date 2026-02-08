@@ -1,5 +1,3 @@
-"use client";
-
 import ButtonProps from "./types";
 
  const Button = ({ children, className, appName= 'app name' }: ButtonProps) => {
