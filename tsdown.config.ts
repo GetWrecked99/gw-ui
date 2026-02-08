@@ -1,11 +1,11 @@
 import { defineConfig } from "tsdown";
 
 export default defineConfig({
-entry: {
-  button: "src/Button/index.ts",
-  card: "src/Card/index.ts",
-  code: "src/Code/index.ts"
-},
+ entry: {
+    "Button/index": "src/Button/index.ts",
+    "Card/index": "src/Card/index.ts",
+    "Code/index": "src/Code/index.ts",
+  },
   format: ["esm", "cjs"],
   dts: true,
   clean: true,

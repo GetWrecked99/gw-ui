@@ -6,19 +6,19 @@
   "type": "module",
   "exports": {
     "./button": {
-      "types": "./dist/button/index.d.ts",
-      "import": "./dist/button/index.mjs",
-      "require": "./dist/button/index.cjs"
+      "types": "./dist/Button/index.d.mts",
+      "import": "./dist/Button/index.mjs",
+      "require": "./dist/Button/index.cjs"
     },
     "./card": {
-      "types": "./dist/card/index.d.ts",
-      "import": "./dist/card/index.mjs",
-      "require": "./dist/card/index.cjs"
+      "types": "./dist/Card/index.d.mts",
+      "import": "./dist/Card/index.mjs",
+      "require": "./dist/Card/index.cjs"
     },
     "./code": {
-      "types": "./dist/code/index.d.ts",
-      "import": "./dist/code/index.mjs",
-      "require": "./dist/code/index.cjs"
+      "types": "./dist/Code/index.d.mts",
+      "import": "./dist/Code/index.mjs",
+      "require": "./dist/Code/index.cjs"
     }
   },
   "files": [
